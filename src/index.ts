@@ -4,6 +4,7 @@
 
 // console.log(hello("200Lab"));
 import { exercise1 } from "./AsyncAwait/Bai01";
+import { excercise2 } from "./AsyncAwait/Bai02";
 import { filterEvenNumbers } from "./Basics with Promise/Bai09";
 import { helloAsync } from "./Basics with Promise/Bai1";
 import { myPromise } from "./Basics with Promise/Bai10";
@@ -60,3 +61,5 @@ myPromise
 
   // async await
   exercise1();
+  //Bai02
+  excercise2();
