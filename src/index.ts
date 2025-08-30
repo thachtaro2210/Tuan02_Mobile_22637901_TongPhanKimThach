@@ -5,6 +5,7 @@
 // console.log(hello("200Lab"));
 import { helloAsync } from "./Basics with Promise/Bai1";
 import { getTenAfterOneSecond } from "./Basics with Promise/Bai2";
+import { rejectPromiseAfterOneSecond } from "./Basics with Promise/Bai3";
 
 helloAsync.then((message : any) => {
   console.log(message); 
@@ -12,4 +13,9 @@ helloAsync.then((message : any) => {
 // Bai 02
 getTenAfterOneSecond().then((result:any) => {
   console.log(result); 
+});
+//Bai03
+
+rejectPromiseAfterOneSecond().catch((error: any) => {
+  console.log(error);
 });
