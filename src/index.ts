@@ -6,6 +6,7 @@
 import { exercise1 } from "./AsyncAwait/Bai01";
 import { excercise2 } from "./AsyncAwait/Bai02";
 import { exercise3 } from "./AsyncAwait/Bai03";
+import { exercise4 } from "./AsyncAwait/Bai04";
 import { filterEvenNumbers } from "./Basics with Promise/Bai09";
 import { helloAsync } from "./Basics with Promise/Bai1";
 import { myPromise } from "./Basics with Promise/Bai10";
@@ -66,3 +67,5 @@ myPromise
   excercise2();
   //Bai03
   exercise3();
+  //Bai04
+  exercise4(5);
