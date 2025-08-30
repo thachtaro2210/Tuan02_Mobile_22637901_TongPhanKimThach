@@ -6,6 +6,8 @@
 import { helloAsync } from "./Basics with Promise/Bai1";
 import { getTenAfterOneSecond } from "./Basics with Promise/Bai2";
 import { rejectPromiseAfterOneSecond } from "./Basics with Promise/Bai3";
+import { getRandomNumber } from "./Basics with Promise/Bai4";
+
 
 helloAsync.then((message : any) => {
   console.log(message); 
@@ -19,3 +21,6 @@ getTenAfterOneSecond().then((result:any) => {
 rejectPromiseAfterOneSecond().catch((error: any) => {
   console.log(error);
 });
+//Bai04
+
+getRandomNumber();
