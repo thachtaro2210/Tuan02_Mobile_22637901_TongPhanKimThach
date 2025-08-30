@@ -3,6 +3,7 @@
 // }
 
 // console.log(hello("200Lab"));
+import { filterEvenNumbers } from "./Basics with Promise/Bai09";
 import { helloAsync } from "./Basics with Promise/Bai1";
 import { getTenAfterOneSecond } from "./Basics with Promise/Bai2";
 import { rejectPromiseAfterOneSecond } from "./Basics with Promise/Bai3";
@@ -38,3 +39,8 @@ rejectPromiseAfterOneSecond().catch((error: any) => {
 square(2);
 double(4);
 addFive(3);
+//Bai09
+// filterEvenNumbers(2,3,4,5,6);
+filterEvenNumbers([1, 2, 3, 4, 5, 6]).then((evenNumbers) => {
+  console.log(evenNumbers); 
+});
