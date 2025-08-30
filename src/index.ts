@@ -10,6 +10,7 @@ import { getRandomNumber } from "./Basics with Promise/Bai4";
 import { simulateTask } from "./Basics with Promise/Bai5";
 import { simulateTasks } from "./Basics with Promise/Bai6";
 import { simulateTask7 } from "./Basics with Promise/Bai7";
+import { addFive, double, square } from "./Basics with Promise/Bai8";
 
 
 helloAsync.then((message : any) => {
@@ -26,10 +27,14 @@ rejectPromiseAfterOneSecond().catch((error: any) => {
 });
 //Bai04
 
-getRandomNumber();
-//Bai05
-simulateTask(1000).then(console.log); 
-//Bai06
-simulateTasks(10);
-//Bai07
-simulateTask7(1000);
+// getRandomNumber();
+// //Bai05
+// simulateTask(1000).then(console.log); 
+// //Bai06
+// simulateTasks(10);
+// //Bai07
+// simulateTask7(1000);
+//Bai08
+square(2);
+double(4);
+addFive(3);
