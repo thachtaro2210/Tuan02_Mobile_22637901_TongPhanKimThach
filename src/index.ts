@@ -3,6 +3,7 @@
 // }
 
 // console.log(hello("200Lab"));
+import { exercise1 } from "./AsyncAwait/Bai01";
 import { filterEvenNumbers } from "./Basics with Promise/Bai09";
 import { helloAsync } from "./Basics with Promise/Bai1";
 import { myPromise } from "./Basics with Promise/Bai10";
@@ -56,3 +57,6 @@ myPromise
   .finally(() => {
     console.log("Done");  
   });
+
+  // async await
+  exercise1();
